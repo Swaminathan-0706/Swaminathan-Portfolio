@@ -36,6 +36,7 @@ h3{font-size: 28px;}
 h4{font-size: 24px;}
 h5{font-size: 20px;}
 h6{font-size: 16px;}
+
 ul{
     list-style: none;
 }
@@ -210,6 +211,27 @@ ul{
 #corner-br{
     bottom:-5px;
     right:-5px;
+}
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+.social-links{
+    text-align: center;
+    margin-top: 8rem;
+    
+}
+
+#icon:hover{
+    color: black;
+    border-width: 100px;
 }
 @media screen and (max-width: 1200px){
 	.main-container{
